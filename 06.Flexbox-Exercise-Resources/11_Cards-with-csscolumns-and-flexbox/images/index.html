@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(238, 238, 238);
+        }
+
+        .cards-layout {
+            display: grid;
+            gap: 20px;
+        }
+
+        .masonry {
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: calc(50% - 20px);
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .card section {
+            margin-bottom: 10px;
+        }
+
+        .card footer {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards-layout masonry">
+        <div class="card">
+            <img src="image1.jpg" alt="Image 1">
+            <section>
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur possimus quo enim eveniet, deserunt ducimus doloremque laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis molestiae corporis. Odio!</p>
+            </section>
+            <footer>More interesting things about the thing</footer>
+        </div>
+        <div class="card">
+            <img src="image2.jpg" alt="Image 1">
+            <section>
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur possimus quo enim eveniet, deserunt ducimus doloremque laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis molestiae corporis. Odio!</p>
+            </section>
+            <footer>More interesting things about the thing</footer>
+        </div>
+        <div class="card">
+            <img src="image3.jpg" alt="Image 1">
+            <section>
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur possimus quo enim eveniet, deserunt ducimus doloremque laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis molestiae corporis. Odio!</p>
+            </section>
+            <footer>More interesting things about the thing</footer>
+        </div>
+        <div class="card">
+            <img src="image4.jpg" alt="Image 1">
+            <section>
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur possimus quo enim eveniet, deserunt ducimus doloremque laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis molestiae corporis. Odio!</p>
+            </section>
+            <footer>More interesting things about the thing</footer>
+        </div>
+    </div>
+    <div class="cards-layout flex">
+        <div class="card">
+            <img src="image2.jpg" alt="Image 1">
+            <section>
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur possimus quo enim eveniet, deserunt ducimus doloremque laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis molestiae corporis. Odio!</p>
+            </section>
+            <footer>More interesting things about the thing</footer>
+        </div>
+        <div class="card">
+            <img src="image3.jpg" alt="Image 1">
+            <section>
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur possimus quo enim eveniet, deserunt ducimus doloremque laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis molestiae corporis. Odio!</p>
+            </section>
+            <footer>More interesting things about the thing</footer>
+        </div>
+        <div class="card">
+            <img src="image4.jpg" alt="Image 1">
+            <section>
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur possimus quo enim eveniet, deserunt ducimus doloremque laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis molestiae corporis. Odio!</p>
+            </section>
+            <footer>More interesting things about the thing</footer>
+        </div>
+    </div>
+</body>
+</html>

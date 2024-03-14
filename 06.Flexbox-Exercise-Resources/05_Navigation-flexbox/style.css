@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+body{
+    margin: 20px;
+}

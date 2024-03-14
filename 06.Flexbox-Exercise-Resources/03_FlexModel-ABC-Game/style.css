@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+.container span {
+    border: 1px solid black;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}

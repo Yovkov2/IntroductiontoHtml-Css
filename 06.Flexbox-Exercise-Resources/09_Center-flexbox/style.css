@@ -1,0 +1,8 @@
+body{
+    background: rgb(238, 238, 238);
+}
+.card{
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    width: 250px;
+}
