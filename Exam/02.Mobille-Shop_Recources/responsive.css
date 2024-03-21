@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+    .home-left{
+      display: none;
+    }
+    .home-right{
+      display: none;
+    }
+    .home-container01{
+      display: none;
+    }
+    .home-hero1{
+        flex-direction: column;
+    }
+    .home-full-width-banner.section-container{
+        flex-direction: column;
+    }
+    .home-image6{
+        width: 100%;
+    }
+    .home-footer{
+        flex-direction: column;
+    }
+    .home-footer1{
+        flex-direction: column;
+    }
+    .home-container09{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: red;
+}
+p{
+    padding-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+main {
+    background: url(fitness-main.jpg) no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+button{
+    background: red;
+    padding: 14px;
+    border-radius: 4px;
+}
+.middle-text{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+  }
+  
+  h3::after {
+    content: '';
+    position: absolute;
+    bottom: -15px; 
+    left: 50%; 
+    width: 50px; 
+    height: 10px; 
+    background-color: red; 
+    transform: translateX(-50%); 
+    z-index: -1; 
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card-one{
+    width: 300px;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+.fa-users, .fa-thumbs-up, .fa-dumbbell{
+    font-size: 60px;
+}
+.black{
+    color: black;
+}
+footer{
+    background: red;
+    text-align: center;
+}
